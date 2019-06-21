@@ -388,7 +388,7 @@ namespace DB_Optimize.Optimization
                         minMaxDataType = new Tuple<long, long>(DataTypeConstants.TINYINT_MIN_VALUE, DataTypeConstants.TINYINT_MAX_VALUE);
                         break;
                     case DataTypeConstants.SMALLINT:
-                        minMaxDataType = new Tuple<long, long>(DataTypeConstants.SMALLINT_MIN_VALUE, DataTypeConstants.INT_MAX_VALUE);
+                        minMaxDataType = new Tuple<long, long>(DataTypeConstants.SMALLINT_MIN_VALUE, DataTypeConstants.SMALLINT_MAX_VALUE);
                         break;
                     case DataTypeConstants.INT:
                         minMaxDataType = new Tuple<long, long>(DataTypeConstants.INT_MIN_VALUE, DataTypeConstants.INT_MAX_VALUE);
